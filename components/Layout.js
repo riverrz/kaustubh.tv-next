@@ -4,10 +4,11 @@ import Navbar from "./Navbar";
 const Layout = props => (
   <div>
     <Head>
-      <title>Bitz Price</title>
+      <title>Kaustubh.tv</title>
+      <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet" />
     </Head>
     <Navbar />
-    <div className="container">
+    <div>
         {props.children}
     </div>
   </div>

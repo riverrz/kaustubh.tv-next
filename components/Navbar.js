@@ -1,27 +1,71 @@
-import Link from "next/link";
+import Link from "../components/Link";
+import styled from "styled-components";
 
-const Navbar = () => (
-  <nav className="navbar navbar-expand navbar-dark bg-dark mb-4">
-    <div className="container">
-      <a className="navbar-brand" href="#">
-        BitzPrice
-      </a>
-      <div className="collapse navbar-collapse">
-        <ul className="navbar-nav ml-auto">
-          <li className="nav-item">
-            <Link href="/">
-              <a className="nav-link">Home</a>
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link href="/about">
-              <a className="nav-link">About</a>
-            </Link>
-          </li>
-        </ul>
-      </div>
-    </div>
+const Navbar = ({ className }) => (
+  <nav className={className}>
+    <ul className="nav-list">
+      <Link activeClassName="nav-active" href="/">
+        <li className="nav-item">
+          <a>Home</a>
+        </li>
+      </Link>
+      <Link activeClassName="nav-active" href="">
+        <li className="nav-item">
+          <a>Publication</a>
+        </li>
+      </Link>
+      <Link activeClassName="nav-active" href="">
+        <li className="nav-item">
+          <a>CV</a>
+        </li>
+      </Link>
+      <Link activeClassName="nav-active" href="/about">
+        <li className="nav-item">
+          <a>Contact</a>
+        </li>
+      </Link>
+    </ul>
+    <h2 className="title">Kaustubh</h2>
   </nav>
 );
 
-export default Navbar;
+export default styled(Navbar)`
+  display: flex;
+  justify-content: space-between;
+  margin: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  .nav-list {
+    flex: 0 0 30%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  .title {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+  }
+  .nav-item {
+    padding: 10px;
+    border-bottom: 1px solid transparent;
+    cursor: pointer;
+    color: #8a8a8a;
+  }
+  .nav-item: hover,
+  .nav-active {
+    border-bottom: 1px solid #333;
+    color: #222;
+  }
+
+  a {
+    text-decoration: none;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    text-transform: uppercase;
+  }
+`;
