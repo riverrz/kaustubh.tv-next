@@ -9,9 +9,9 @@ const Navbar = ({ className }) => (
           <a>Home</a>
         </li>
       </Link>
-      <Link activeClassName="nav-active" href="">
+      <Link activeClassName="nav-active" href="/work">
         <li className="nav-item">
-          <a>Publication</a>
+          <a>Work</a>
         </li>
       </Link>
       <Link activeClassName="nav-active" href="">
@@ -33,7 +33,6 @@ export default styled(Navbar)`
   display: flex;
   justify-content: space-between;
   margin: 1rem;
-  font-family: 'Montserrat', sans-serif;
   .nav-list {
     flex: 0 0 30%;
     margin: 0;
