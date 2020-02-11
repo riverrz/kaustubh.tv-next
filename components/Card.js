@@ -14,6 +14,7 @@ export default styled(Card)`
   border-radius: 10px;
   transition: all 0.3s;
   cursor: pointer;
+  overflow: hidden;
   :hover {
     transform: translateY(-20px);
   }
