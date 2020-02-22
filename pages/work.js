@@ -60,7 +60,7 @@ const Work = ({ className }) => {
 const data = [
   {
     animationData: VideoCamAnimation,
-    query: "production"
+    query: "cinematography"
   },
   {
     animationData: EditingAnimation,
@@ -68,8 +68,12 @@ const data = [
   },
   {
     animationData: JumpCoinAnimation,
-    query: "direction"
-  }
+    query: "producing"
+  },
+  {
+    animationData: JumpCoinAnimation,
+    query: "visual effects"
+  },
 ];
 
 export default styled(Work)`

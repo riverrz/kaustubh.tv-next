@@ -1,9 +1,9 @@
 {
-  "production": [
+  "cinematography": [
     {
-      "img": "/template.jpg",
-      "title": "Lorem",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem cupiditate magni explicabo in vel cum fugiat illo quam unde fugit facilis dolor, fuga possimus necessitatibus quisquam, sed iste dolorem!"
+      "img": "/CINEMATOGRAPHY/SHORTS/Baba-Wheelchair/Capture.PNG",
+      "title": "Baba Wheelchair",
+      "description": "Society has driven Nakul, a physically challeneged graduate, to start his own organised religion."
     },
     {
       "img": "/template.jpg",
@@ -57,5 +57,6 @@
     }
   ],
   "editing": [],
-  "direction": []
+  "producing": [],
+  "visual effects": []
 }
