@@ -14,18 +14,18 @@ const Navbar = ({ className }) => (
           <a>Work</a>
         </li>
       </Link>
-      <Link activeClassName="nav-active" href="">
+      <Link activeClassName="nav-active" href="/resume">
         <li className="nav-item">
-          <a>CV</a>
+          <a>Resume</a>
         </li>
       </Link>
-      <Link activeClassName="nav-active" href="/about">
+      <Link activeClassName="nav-active" href="/contact">
         <li className="nav-item">
           <a>Contact</a>
         </li>
       </Link>
     </ul>
-    <h2 className="title">Kaustubh</h2>
+    <h2 className="title">KAUSTUBH SINGH</h2>
   </nav>
 );
 
