@@ -73,4 +73,10 @@ export default styled(Navbar)`
     color: inherit;
     text-transform: uppercase;
   }
+
+  @media only screen and (max-width: 768px) {
+    .title {
+      display: none;
+    }
+  }
 `;

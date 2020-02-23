@@ -42,6 +42,7 @@ const BgContainer = styled.div`
   animation: breath 10s ease-in-out alternate infinite;
   background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
 
   @keyframes breath {
     from { 
@@ -63,14 +64,22 @@ export default styled(withRouter(Description))`
   }
 
   .title {
-    font-size: 70px;
+    font-size: 4.5rem;
     font-weight: 700;
-    line-height: 122px;
     text-transform: uppercase;
   }
 
   .description {
     font-size: 1.5rem;
     font-weight: 400;
+  }
+
+  @media only screen and (max-width: 768px) {
+    .title {
+      font-size: 1.9rem;
+    }
+    .description {
+      font-size: 1rem;
+    }
   }
 `;
