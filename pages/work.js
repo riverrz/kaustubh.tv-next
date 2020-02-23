@@ -9,6 +9,7 @@ import ModalComponent from "../components/ModalComponent";
 import VideoCamAnimation from "../33-video-cam.json";
 import EditingAnimation from "../10106-layout-creation.json";
 import JumpCoinAnimation from "../9076-jumping-coin.json";
+import BB8Animation from "../3010-bb8.json";
 import Data from "../data.json";
 
 const Work = ({ className }) => {
@@ -71,7 +72,7 @@ const data = [
     query: "producing"
   },
   {
-    animationData: JumpCoinAnimation,
+    animationData: BB8Animation,
     query: "visual effects"
   },
 ];
