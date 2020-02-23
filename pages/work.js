@@ -11,6 +11,7 @@ import EditingAnimation from "../10106-layout-creation.json";
 import JumpCoinAnimation from "../9076-jumping-coin.json";
 import BB8Animation from "../3010-bb8.json";
 import Data from "../data.json";
+import ThemeContext from "../context/ThemeContext";
 
 const Work = ({ className }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -26,35 +27,39 @@ const Work = ({ className }) => {
   };
 
   return (
-    <Layout>
-      <Modal
-        isOpen={isModalOpen}
-        onRequestClose={closeModal}
-        contentLabel={modalData.title || ""}
-      >
-        {modalData.content}
-      </Modal>
-      <main className={className}>
-        <Grid style={{ padding: "4% 8%" }}>
-          {data.map(({ query, animationData }, i) => (
-            <Card
-              key={i}
-              onClick={() =>
-                openModal({
-                  content: <ModalComponent data={Data[query]} query={query} />,
-                  title: query
-                })
-              }
-            >
-              <div className="svg-container">
-                <Lottie animationData={animationData} />
-              </div>
-              <h3 className="title">{query}</h3>
-            </Card>
-          ))}
-        </Grid>
-      </main>
-    </Layout>
+    <ThemeContext.Provider value="dark">
+      <Layout>
+        <Modal
+          isOpen={isModalOpen}
+          onRequestClose={closeModal}
+          contentLabel={modalData.title || ""}
+        >
+          {modalData.content}
+        </Modal>
+        <main className={className}>
+          <Grid style={{ padding: "4% 8%" }}>
+            {data.map(({ query, animationData }, i) => (
+              <Card
+                key={i}
+                onClick={() =>
+                  openModal({
+                    content: (
+                      <ModalComponent data={Data[query]} query={query} />
+                    ),
+                    title: query
+                  })
+                }
+              >
+                <div className="svg-container">
+                  <Lottie animationData={animationData} />
+                </div>
+                <h3 className="title">{query}</h3>
+              </Card>
+            ))}
+          </Grid>
+        </main>
+      </Layout>
+    </ThemeContext.Provider>
   );
 };
 
@@ -74,7 +79,7 @@ const data = [
   {
     animationData: BB8Animation,
     query: "visual effects"
-  },
+  }
 ];
 
 export default styled(Work)`

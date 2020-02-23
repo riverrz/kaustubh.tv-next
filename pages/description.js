@@ -17,8 +17,10 @@ const Description = ({ router, className }) => {
     <ThemeContext.Provider value="light">
       <Layout>
         <BgContainer className={className} background={workType.img}>
-          <h1>{workType.title}</h1>
-          <p>{workType.description}</p>
+          <div className="centered-container">
+            <h1 className="title">{workType.title}</h1>
+            <p className="description">{workType.description}</p>
+          </div>
         </BgContainer>
       </Layout>
     </ThemeContext.Provider>
@@ -37,6 +39,43 @@ const BgContainer = styled(Container)`
   z-index: -1;
   box-sizing: border-box;
   padding: 8% 0;
+  animation: zoom 30s infinite;
+
+  background-position: center center;
+  background-repeat: no-repeat;
+
+  @keyframes zoom {
+    0% {
+      background-size: 100%;
+    }
+    50% {
+      background-size: 110%;
+    }
+    100% {
+      background-size: 100%;
+    }
+  }
+
+  .centered-container {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .title {
+    font-size: 70px;
+    font-weight: 700;
+    line-height: 122px;
+    text-transform: uppercase;
+    font-family: 'Barlow Condensed', sans-serif;  
+  }
+
+  .description {
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
 `;
 
-export default styled(withRouter(Description))``;
+export default withRouter(Description);

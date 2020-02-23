@@ -10,7 +10,7 @@ const Layout = props => (
       <Head>
         <title>Kaustubh.tv</title>
       </Head>
-      <Navbar />
+      <Navbar theme={theme} />
       {Children.map(props.children, child => cloneElement(child, { theme }))}
     </div>
     )}

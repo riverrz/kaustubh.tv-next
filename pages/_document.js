@@ -32,7 +32,7 @@ class CustomDocument extends Document {
       <Html>
         <Head>
           <link
-            href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+            href="https://fonts.googleapis.com/css?family=Inconsolata&display=swap"
             rel="stylesheet"
           />
         </Head>
