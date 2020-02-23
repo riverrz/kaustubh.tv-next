@@ -1,33 +1,50 @@
 import Link from "../components/Link";
 import styled from "styled-components";
 
-const Navbar = ({ className }) => (
-  <nav className={className}>
+const Navbar = ({ className, theme }) => (
+  <Nav className={className} theme={theme}>
     <ul className="nav-list">
       <Link activeClassName="nav-active" href="/">
-        <li className="nav-item">
+        <NavItem theme={theme}>
           <a>Home</a>
-        </li>
+        </NavItem>
       </Link>
       <Link activeClassName="nav-active" href="/work">
-        <li className="nav-item">
+        <NavItem theme={theme}>
           <a>Work</a>
-        </li>
+        </NavItem>
       </Link>
       <Link activeClassName="nav-active" href="/resume">
-        <li className="nav-item">
+        <NavItem theme={theme}>
           <a>Resume</a>
-        </li>
+        </NavItem>
       </Link>
       <Link activeClassName="nav-active" href="/contact">
-        <li className="nav-item">
+        <NavItem theme={theme}>
           <a>Contact</a>
-        </li>
+        </NavItem>
       </Link>
     </ul>
     <h2 className="title">KAUSTUBH SINGH</h2>
-  </nav>
+  </Nav>
 );
+
+const Nav = styled.nav`
+  color: ${({ theme }) => (theme === "dark" ? "#111" : "#fff")};
+`;
+
+const NavItem = styled.li`
+  padding: 10px;
+  border-bottom: 1px solid transparent;
+  cursor: pointer;
+  color: ${({ theme }) => (theme === "dark" ? "#8a8a8a" : "#fff")};
+  :hover,
+  .active {
+    border-bottom: 1px solid
+      ${({ theme }) => (theme === "dark" ? "#333" : "#ddd")};
+    color: ${({ theme }) => (theme === "dark" ? "#222" : "#eee")};
+  }
+`;
 
 export default styled(Navbar)`
   display: flex;
@@ -47,17 +64,6 @@ export default styled(Navbar)`
     margin: 0;
     padding: 0;
     text-align: right;
-  }
-  .nav-item {
-    padding: 10px;
-    border-bottom: 1px solid transparent;
-    cursor: pointer;
-    color: #8a8a8a;
-  }
-  .nav-item: hover,
-  .nav-active {
-    border-bottom: 1px solid #333;
-    color: #222;
   }
 
   a {
