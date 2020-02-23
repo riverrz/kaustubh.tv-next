@@ -10,12 +10,7 @@ const Index = ({ className }) => (
       <Container>
         <Flex className={ className } justify="center">
           <div className="main-content">
-            Kaustubh Singh is a peculiar figure in the world of cinema. Although he
-            claims that he is a visual journalist, his frequent attempts at film
-            making suggest otherwise. Currently he is studying Television
-            Production/Documentary Film at Dodge College of Film And Media Arts,
-            Chapman University and wishes to delve himself more into the many
-            pathways of world cinema.
+          Kaustubh has worked on documentaries in Alaska, Australia, British Columbia, California, India, Mexico, Kenya, and Singapore. He’s studying News and Documentary film with a minor in Law, Justice and Social Control. Often touted as a non-fiction filmmaker, he considers himself a journalist first. As an active volunteer at the IDA and a member of the Society of Professional Journalists, he strives to bring the art of documentary film to underrepresented communities in the industry. He likes to read. His three daily pillars, he maintains, are the Washington Post, The Economist, and The New Yorker.
           </div>
           <div className="img-container">
             <img src="/kaustubh.jpg" alt="Kaustubh"/>
