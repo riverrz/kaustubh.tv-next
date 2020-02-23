@@ -1,9 +1,9 @@
 import { withRouter } from "next/router";
 import styled from "styled-components";
 import Layout from "../components/Layout";
-import Container from '../components/Container';
+import Container from "../components/Container";
 import Data from "../data.json";
-import ThemeContext from '../context/ThemeContext';
+import ThemeContext from "../context/ThemeContext";
 
 const Description = ({ router, className }) => {
   const {
@@ -16,46 +16,44 @@ const Description = ({ router, className }) => {
   return (
     <ThemeContext.Provider value="light">
       <Layout>
-        <BgContainer className={className} background={workType.img}>
+        <Container className={className}>
+          <BgContainer background={workType.img} />
           <div className="centered-container">
             <h1 className="title">{workType.title}</h1>
             <p className="description">{workType.description}</p>
           </div>
-        </BgContainer>
+        </Container>
       </Layout>
     </ThemeContext.Provider>
   );
 };
 
-const BgContainer = styled(Container)`
+const BgContainer = styled.div`
   background: ${({ background }) =>
     background ? `url(${background})` : "#222"};
   position: absolute;
   top: 0;
   left: 0;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-size: cover;
   z-index: -1;
   box-sizing: border-box;
-  padding: 8% 0;
-  animation: zoom 30s infinite;
-
+  animation: breath 10s ease-in-out alternate infinite;
   background-position: center center;
   background-repeat: no-repeat;
 
-  @keyframes zoom {
-    0% {
-      background-size: 100%;
+  @keyframes breath {
+    from { 
+      transform: scale(1);
     }
-    50% {
-      background-size: 110%;
-    }
-    100% {
-      background-size: 100%;
+    to {
+      transform: scale(1.05)
     }
   }
+`;
 
+export default styled(withRouter(Description))`
   .centered-container {
     position: absolute;
     top: 60%;
@@ -69,7 +67,6 @@ const BgContainer = styled(Container)`
     font-weight: 700;
     line-height: 122px;
     text-transform: uppercase;
-    font-family: 'Barlow Condensed', sans-serif;  
   }
 
   .description {
@@ -77,5 +74,3 @@ const BgContainer = styled(Container)`
     font-weight: 400;
   }
 `;
-
-export default withRouter(Description);
