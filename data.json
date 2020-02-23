@@ -6,57 +6,131 @@
       "description": "Society has driven Nakul, a physically challeneged graduate, to start his own organised religion."
     },
     {
-      "img": "/template.jpg",
-      "title": "Lorem",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem cupiditate magni explicabo in vel cum fugiat illo quam unde fugit facilis dolor, fuga possimus necessitatibus quisquam, sed iste dolorem!"
+      "img": "/CINEMATOGRAPHY/SHORTS/Conquered/Capture.PNG",
+      "title": "Conquered",
+      "description": " A seemingly impossible program haunts the lives of a group of coders, who are slowly losing their grasp on reality. Conquered is a film that explores the dehumanizing effects that prioritizing work over everything else can have."
     },
     {
-      "img": "/template.jpg",
-      "title": "Lorem",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem cupiditate magni explicabo in vel cum fugiat illo quam unde fugit facilis dolor, fuga possimus necessitatibus quisquam, sed iste dolorem!"
+      "img": "/CINEMATOGRAPHY/SHORTS/Ride_with_Pride/still_1.PNG",
+      "title": "Ride with Pride",
+      "description": "This short documentary follows Parampreet Rajput-Singh, founder of the Sikh Australian Motorcycle Club, in his quest to legalize riding motorcycles with turbans instead of helmets in order to adhere to religion. Parampreet must come face-to-face with his commitment to his faith while potentially risking responsibilities as a husband and a father."
     },
     {
-      "img": "/template.jpg",
-      "title": "Lorem",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem cupiditate magni explicabo in vel cum fugiat illo quam unde fugit facilis dolor, fuga possimus necessitatibus quisquam, sed iste dolorem!"
+      "img": "/CINEMATOGRAPHY/SHORTS/Series_of_Meaningless_sketches/Capture2.PNG",
+      "title": "Series of Meaningless Sketches",
+      "description": " A series of meaningless sketches that look like badly made Wes Anderson films."
     },
     {
-      "img": "/template.jpg",
-      "title": "Lorem",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem cupiditate magni explicabo in vel cum fugiat illo quam unde fugit facilis dolor, fuga possimus necessitatibus quisquam, sed iste dolorem!"
-    },
-    {
-      "img": "/template.jpg",
-      "title": "Lorem",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem cupiditate magni explicabo in vel cum fugiat illo quam unde fugit facilis dolor, fuga possimus necessitatibus quisquam, sed iste dolorem!"
-    },
-    {
-      "img": "/template.jpg",
-      "title": "Lorem",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem cupiditate magni explicabo in vel cum fugiat illo quam unde fugit facilis dolor, fuga possimus necessitatibus quisquam, sed iste dolorem!"
-    },
-    {
-      "img": "/template.jpg",
-      "title": "Lorem",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem cupiditate magni explicabo in vel cum fugiat illo quam unde fugit facilis dolor, fuga possimus necessitatibus quisquam, sed iste dolorem!"
-    },
-    {
-      "img": "/template.jpg",
-      "title": "Lorem",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem cupiditate magni explicabo in vel cum fugiat illo quam unde fugit facilis dolor, fuga possimus necessitatibus quisquam, sed iste dolorem!"
-    },
-    {
-      "img": "/template.jpg",
-      "title": "Lorem",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem cupiditate magni explicabo in vel cum fugiat illo quam unde fugit facilis dolor, fuga possimus necessitatibus quisquam, sed iste dolorem!"
-    },
-    {
-      "img": "/template.jpg",
-      "title": "Lorem",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam quidem cupiditate magni explicabo in vel cum fugiat illo quam unde fugit facilis dolor, fuga possimus necessitatibus quisquam, sed iste dolorem!"
+      "img": "/CINEMATOGRAPHY/SHORTS/She_is_Strong/still_4.PNG",
+      "title": "She is Strong",
+      "description": "Synopsis: This film details the life and struggle of Rupinder Kaur, the first Indian woman to wrestle for Australia's international team, as she navigates motherhood and a male-dominated career."
     }
   ],
-  "editing": [],
-  "producing": [],
-  "visual effects": []
+
+  "editing": [
+    {
+      "img": "/EDITING/FEATURE/Untitled_Gustavo_Dudamel_Documentary/1.JPG",
+      "title": "Untitled Gustavo Dudamel Documentary",
+      "description": "Documentary on Gustavo Dudamel"
+    },
+    {
+      "img": "/EDITING/SHORTS/Behind the scenes Chapman News/unnamed.jpg",
+      "title": "Behind the scenes Chapman News",
+      "description": "Look at the inner-workings of Chapman's student run weekly news show."
+    },
+    {
+      "img": "/EDITING/SHORTS/Status Pending/photo.jpg",
+      "title": "Status Pending",
+      "description": "With Immigration law under attack, five first-generation Immigration lawyers strive to help immigrants obtain safety and status in the United States. Through a chronicle of their professional and personal lives, STATUS PENDING aims to present the effects of the current administration through the perspectives of active immigration lawyers in the Los Angeles area"
+    },
+    {
+      "img": "/EDITING/SHORTS/That Was Ray/2.jpg",
+      "title": "Series of Meaningless Sketches",
+      "description": "That Was Ray chronicles the life of Reverend Raymond “Ray” Broshears. Ray was at the forefront of the San Francisco gay rights movement in the late 60s to mid-70s. While he preached peace and acceptance, he also founded a militant group, “The Lavender Panthers”, which curbed hate crimes with the threat of violence. He was a radical and polarizing figure who fought violence with violence, alienating himself from his fellow gay-rights activists and straight peers alike. Due to their controversial methods, Ray and the Panthers were largely forgotten, until now."
+    }
+  ],
+  "producing": [
+    {
+      "img": "/PRODUCING/FEATURE/Acceptance/photo.jpg",
+      "title": "Acceptance",
+      "description": "An underprivileged scholar from India obsessed about gaining admission into an Ivy League School lies about receiving an acceptance letter from Harvard University and ends up in the opulent world of his peers."
+    },
+    {
+      "img": "/PRODUCING/FEATURE/On The Record/photo.jpg",
+      "title": "On The Record",
+      "description": "A former hip hop executive decides whether to make public her rape by one of the most powerful men in the music industry."
+    },
+    {
+      "img": "/PRODUCING/FEATURE/Our Planet/OP.jpg",
+      "title": "Our Planet",
+      "description": "Experiencing the planet's natural beauty through an examination of how climate change impacts all living creatures in this ambitious documentary of spectacular scope."
+    },
+    {
+      "img": "/PRODUCING/SHORTS/Behind the scenes CHapman news/unnamed.jpg",
+      "title": "Behind the scenes Chapman news",
+      "description": "A look at the inner-workings of Chapman's student run weekly news show.      "
+    },
+    {
+      "img": "/PRODUCING/SHORTS/Down/photo.jpg",
+      "title": "Down",
+      "description": " Parched and wounded, Maurice spots two figures in a distance. Will he be able to make it to either one in time?      "
+    },
+    {
+      "img": "/PRODUCING/SHORTS/Eternal Solitude/photo.jpg",
+      "title": "Eternal Solitude",
+      "description": "After committing suicide a young man finds himself trapped in afterlife"
+    },
+    {
+      "img": "/PRODUCING/SHORTS/Kayla/photo.jpg",
+      "title": "Kayla",
+      "description": "James likes Kayla, but doesnt know how to show it.      "
+    },
+    {
+      "img": "/PRODUCING/SHORTS/Noha/photo.jpg",
+      "title": "Noha",
+      "description": "Stuck in limbo, can Fatima outwit Death?   "
+    },
+    {
+      "img": "/PRODUCING/SHORTS/Peace of Her Own/logo.png",
+      "title": "Peace of Her Own",
+      "description": "In a community where women are tasked with both farming and house work yet receive no credit, a young Indian woman in the farming community of Gujarat, India prepares to tackle economic instability, climate pressures, and patriarchal oppression within her village and attempts to find Peace of Her Own.   "
+    },
+    {
+      "img": "/PRODUCING/SHORTS/Status Pending/photo.jpg",
+      "title": "Status Pending",
+      "description": "With Immigration law under attack, five first-generation Immigration lawyers strive to help immigrants obtain safety and status in the United States. Through a chronicle of their professional and personal lives, STATUS PENDING aims to present the effects of the current administration through the perspectives of active immigration lawyers in the Los Angeles area. "
+    },
+    {
+      "img": "/PRODUCING/SHORTS/That Was Ray/photo.jpg",
+      "title": "That Was Ray",
+      "description": "That Was Ray chronicles the life of Reverend Raymond “Ray” Broshears. Ray was at the forefront of the San Francisco gay rights movement in the late 60s to mid-70s. While he preached peace and acceptance, he also founded a militant group, “The Lavender Panthers”, which curbed hate crimes with the threat of violence. He was a radical and polarizing figure who fought violence with violence, alienating himself from his fellow gay-rights activists and straight peers alike. Due to their controversial methods, Ray and the Panthers were largely forgotten, until now. "
+    },
+    {
+      "img": "/PRODUCING/SHORTS/Virgin Hamza's Revenge/photo.jpg",
+      "title": "Virgin Hamza's Revenge",
+      "description": "Hamza's mother accidentally sets up her virgin son with a serial killer.  "
+    }
+  ],
+  "visual effects": [
+    {
+      "img": "/VISUAL EFFECTS/SHORTS/Down/down.jpg",
+      "title": "Down",
+      "description": " Parched and wounded, Maurice spots two figures in a distance. Will he be able to make it to either one in time?"
+    },
+    {
+      "img": "/VISUAL EFFECTS/SHORTS/Noha/photo.jpg",
+      "title": "Noha",
+      "description": " Stuck in limbo, can Fatima outwit Death?"
+    },
+    {
+      "img": "/VISUAL EFFECTS/SHORTS/That Was Ray/photo.jpg",
+      "title": "That Was Ray",
+      "description": " That Was Ray chronicles the life of Reverend Raymond “Ray” Broshears. Ray was at the forefront of the San Francisco gay rights movement in the late 60s to mid-70s. While he preached peace and acceptance, he also founded a militant group, “The Lavender Panthers”, which curbed hate crimes with the threat of violence. He was a radical and polarizing figure who fought violence with violence, alienating himself from his fellow gay-rights activists and straight peers alike. Due to their controversial methods, Ray and the Panthers were largely forgotten, until now."
+    },
+    {
+      "img": "/VISUAL EFFECTS/SHORTS/Virgin Hamza's Revenge/photo.jpg",
+      "title": "Virgin Hamza's Revenge",
+      "description": "  Hamza's mother accidentally sets up her virgin son with a serial killer. "
+    }
+  ]
 }
