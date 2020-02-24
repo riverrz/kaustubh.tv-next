@@ -16,6 +16,6 @@ export default styled(Card)`
   cursor: pointer;
   overflow: hidden;
   :hover {
-    transform: translateY(-20px);
+    transform: translateY(-10px);
   }
 `;
