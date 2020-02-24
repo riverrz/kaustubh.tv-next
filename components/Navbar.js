@@ -14,11 +14,6 @@ const Navbar = ({ className, theme }) => (
           <a>Work</a>
         </NavItem>
       </Link>
-      <Link activeClassName="nav-active" href="/resume">
-        <NavItem theme={theme}>
-          <a>Resume</a>
-        </NavItem>
-      </Link>
       <Link activeClassName="nav-active" href="/contact">
         <NavItem theme={theme}>
           <a>Contact</a>
@@ -56,14 +51,14 @@ export default styled(Navbar)`
     padding: 0;
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
   }
   .title {
     flex: 1;
     margin: 0;
     padding: 0;
-    text-align: right;
+    text-align: center;
   }
 
   a {
