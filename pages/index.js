@@ -10,7 +10,11 @@ const Index = ({ className }) => (
       <Container>
         <Flex className={ className } justify="center">
           <div className="main-content">
-          Kaustubh has worked on documentaries in Alaska, Australia, British Columbia, California, India, Mexico, Kenya, and Singapore. He’s studying News and Documentary film with a minor in Law, Justice and Social Control. Often touted as a non-fiction filmmaker, he considers himself a journalist first. As an active volunteer at the IDA and a member of the Society of Professional Journalists, he strives to bring the art of documentary film to underrepresented communities in the industry. He likes to read. His three daily pillars, he maintains, are the Washington Post, The Economist, and The New Yorker.
+          Kaustubh is a senior Film and Television student at the reputed Dodge College of Film and Media Art at Chapman University. He has worked on films and documentaries around the globe, including Alaska, Australia, British Columbia, California, India, Mexico, Kenya, and Singapore. 
+
+Although often touted as a non-fiction filmmaker, Kaustubh strives to bring the art of film, irrespective of genre and medium, to underrepresented communities in the industry. 
+
+He likes to read. His three daily pillars, he maintains, are the Washington Post, The Economist, and The New Yorker.
           </div>
           <div className="img-container">
             <img src="/kaustubh.jpg" alt="Kaustubh"/>
