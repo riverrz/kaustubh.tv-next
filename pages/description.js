@@ -17,7 +17,9 @@ const Description = ({ router, className }) => {
     <ThemeContext.Provider value="light">
       <Layout>
         <Container className={className}>
-          <BgContainer background={workType.img} />
+          <BgContainer background={workType.img}>
+            <img src={workType.img} alt="image"/>
+          </BgContainer>
           <div className="centered-container">
             <h1 className="title">{workType.title}</h1>
             <p className="description">{workType.description}</p>
@@ -29,27 +31,26 @@ const Description = ({ router, className }) => {
 };
 
 const BgContainer = styled.div`
-  background: ${({ background }) =>
-    background ? `url(${background})` : "#222"};
   position: absolute;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-size: cover;
   z-index: -1;
+  overflow: hidden;
   box-sizing: border-box;
-  animation: breath 10s ease-in-out alternate infinite;
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-  @keyframes breath {
-    from { 
+  img {
+    transform-origin: center center;
+    animation: zoom 30s infinite;
+    width: 100%;
+    height: 100%;
+  }
+  @keyframes zoom {
+    from {
       transform: scale(1);
     }
     to {
-      transform: scale(1.05)
+      transform: scale(1.05);
     }
   }
 `;
@@ -62,7 +63,11 @@ export default styled(withRouter(Description))`
     transform: translate(-50%, -50%);
     text-align: center;
   }
-
+  .overflow-container {
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+  }
   .title {
     font-size: 4.5rem;
     font-weight: 700;

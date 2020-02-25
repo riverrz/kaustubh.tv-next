@@ -44,7 +44,7 @@ const NavItem = styled.li`
 export default styled(Navbar)`
   display: flex;
   justify-content: space-between;
-  margin: 1rem;
+  padding: 1rem;
   .nav-list {
     flex: 0 0 30%;
     margin: 0;

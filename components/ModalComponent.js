@@ -6,7 +6,7 @@ import Flex from './Flex';
 
 const ModalComponent = ({ data, query, className }) => {
   return (
-    <Grid className={className}>
+    <Grid className={className} cols={3}>
       {data.map(({ title, img }, i) => (
         <Link href={`/description?type=${query}&i=${i}`} key={title}>
           <Card key={i}>
@@ -26,7 +26,6 @@ export default styled(ModalComponent)`
   grid-gap: 5%;
   max-height: 75vh;
   min-width: 75vw;
-  grid-template-columns: repeat(3, 1fr);
   overflow: auto;
   .img-container {
     width: 100%;

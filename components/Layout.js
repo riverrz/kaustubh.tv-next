@@ -1,18 +1,20 @@
-import { Children, cloneElement } from 'react';
+import { Children, cloneElement, Fragment } from 'react';
 import Head from "next/head";
 import Navbar from "./Navbar";
+import Footer from '../components/Footer';
 import ThemeContext from '../context/ThemeContext';
 
 const Layout = props => (
   <ThemeContext.Consumer>
     {theme => (
-    <div>
+    <Fragment>
       <Head>
         <title>Kaustubh.tv</title>
       </Head>
       <Navbar theme={theme} />
       {Children.map(props.children, child => cloneElement(child, { theme }))}
-    </div>
+      <Footer />
+    </Fragment>
     )}
   </ThemeContext.Consumer>
 );
