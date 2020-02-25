@@ -37,7 +37,7 @@ const Work = ({ className }) => {
           {modalData.content}
         </Modal>
         <main className={className}>
-          <Grid style={{ padding: "4% 8%" }}>
+          <Grid style={{ padding: "15%" }}>
             {data.map(({ query, animationData }, i) => (
               <Card
                 key={i}

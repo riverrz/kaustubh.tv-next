@@ -1,6 +1,7 @@
 import { withRouter } from "next/router";
 import styled from "styled-components";
 import Layout from "../components/Layout";
+import Flex from "../components/Flex";
 import Container from "../components/Container";
 import Data from "../data.json";
 import ThemeContext from "../context/ThemeContext";
@@ -16,29 +17,30 @@ const Description = ({ router, className }) => {
   return (
     <ThemeContext.Provider value="light">
       <Layout>
-        <Container className={className}>
+        <div className={className}>
           <BgContainer background={workType.img}>
-            <img src={workType.img} alt="image"/>
+            <img src={workType.img} alt="image" />
           </BgContainer>
           <div className="centered-container">
+            {workType.director && <h3>A film by {workType.director}</h3>}
             <h1 className="title">{workType.title}</h1>
-            <p className="description">{workType.description}</p>
           </div>
-        </Container>
+          <Flex align="center" justify="space-around" className="synopsis-container">
+            <div>
+              <h2>SYNOPSIS</h2>
+            </div>
+            <p className="description">{workType.description}</p>
+          </Flex>
+        </div>
       </Layout>
     </ThemeContext.Provider>
   );
 };
 
 const BgContainer = styled.div`
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
-  z-index: -1;
   overflow: hidden;
-  box-sizing: border-box;
   img {
     transform-origin: center center;
     animation: zoom 30s infinite;
@@ -56,17 +58,20 @@ const BgContainer = styled.div`
 `;
 
 export default styled(withRouter(Description))`
+  color: #fff;
+  z-index: -1;
+  position: relative;
   .centered-container {
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
   }
-  .overflow-container {
-    overflow: hidden;
-    width: 100vw;
-    height: 100vh;
+  .synopsis-container {
+    min-height: 15rem;
+    color: #fff;
+    background-color: #333;
   }
   .title {
     font-size: 4.5rem;
