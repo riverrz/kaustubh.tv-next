@@ -4,48 +4,46 @@
       "img": "/CINEMATOGRAPHY/SHORTS/Baba-Wheelchair/Capture.PNG",
       "title": "Baba Wheelchair",
       "description": "Society has driven Nakul, a physically challeneged graduate, to start his own organised religion.",
-      "filmby": "Pranavesh Subramaniam and Sarthak Gupta",
-      "role" : "Cinematographer"
+      "filmBy": "Pranavesh Subramaniam and Sarthak Gupta",
+      "role": "Cinematographer"
     },
     {
       "img": "/CINEMATOGRAPHY/SHORTS/Conquered/Capture.PNG",
       "title": "Conquered",
-      "description": " A seemingly impossible program haunts the lives of a group of coders, who are slowly losing their grasp on reality. Conquered is a film that explores the dehumanizing effects that prioritizing work over everything else can have."
-    ,"filmby":"Ayuj Consul",
-    "role":"Cinematographer",
-    "director": "Ayuj Consul",
-    "editor": "Shubhankar Mukherjee",
-    "writer": "Ayuj Consul",
-    "link":"https://www.youtube.com/watch?v=Z7BLHGvyfQE&fbclid=IwAR321i8V8tQeD2d3tPrg120-SiEaeQsBprkvZrWtx07g9Z3YOOXIBsAVR2k"
-    
+      "description": " A seemingly impossible program haunts the lives of a group of coders, who are slowly losing their grasp on reality. Conquered is a film that explores the dehumanizing effects that prioritizing work over everything else can have.",
+      "filmBy": "Ayuj Consul",
+      "role": "Cinematographer",
+      "director": "Ayuj Consul",
+      "editor": "Shubhankar Mukherjee",
+      "writer": "Ayuj Consul",
+      "link": "https://www.youtube.com/watch?v=Z7BLHGvyfQE&fbclid=IwAR321i8V8tQeD2d3tPrg120-SiEaeQsBprkvZrWtx07g9Z3YOOXIBsAVR2k"
     },
     {
       "img": "/CINEMATOGRAPHY/SHORTS/Ride_with_Pride/still_1.PNG",
       "title": "Ride with Pride",
-      "description": "This short documentary follows Parampreet Rajput-Singh, founder of the Sikh Australian Motorcycle Club, in his quest to legalize riding motorcycles with turbans instead of helmets in order to adhere to religion. Parampreet must come face-to-face with his commitment to his faith while potentially risking responsibilities as a husband and a father."
-    ,"award": "Winner of Sikhlens Fund Grant Chapman University:",
-    "link":"https://vimeo.com/316688511",
-    "role":"Cinematographer, Drone Operator",
-    "filmby":"Kylie Miller, Brynne Mckee, Hulu Nunokowa, Kaustubh 'Vick' Singh, Emily Tapanes"
-     
+      "description": "This short documentary follows Parampreet Rajput-Singh, founder of the Sikh Australian Motorcycle Club, in his quest to legalize riding motorcycles with turbans instead of helmets in order to adhere to religion. Parampreet must come face-to-face with his commitment to his faith while potentially risking responsibilities as a husband and a father.",
+      "award": "Winner of Sikhlens Fund Grant Chapman University:",
+      "link": "https://vimeo.com/316688511",
+      "role": "Cinematographer, Drone Operator",
+      "filmBy": "Kylie Miller, Brynne Mckee, Hulu Nunokowa, Kaustubh 'Vick' Singh, Emily Tapanes"
     },
     {
       "img": "/CINEMATOGRAPHY/SHORTS/Series_of_Meaningless_sketches/Capture2.PNG",
       "title": "Series of Meaningless Sketches",
-      "description": " A series of meaningless sketches that look like badly made Wes Anderson films."
-      ,"link": "https://www.youtube.com/watch?v=D7Wi_lGJl7w&list=PL6YJf3qxGiRwmBiNddbSgmZ5LZmBCcA_r"
-    ,"director":"Pranavesh Subramaniam and Sarthak Gupta"
-    ,"filmby":"Pranavesh Subramaniam and Sarthak Gupta",
-    "role":"Cinematographer"
+      "description": " A series of meaningless sketches that look like badly made Wes Anderson films.",
+      "link": "https://www.youtube.com/watch?v=D7Wi_lGJl7w&list=PL6YJf3qxGiRwmBiNddbSgmZ5LZmBCcA_r",
+      "director": "Pranavesh Subramaniam and Sarthak Gupta",
+      "filmBy": "Pranavesh Subramaniam and Sarthak Gupta",
+      "role": "Cinematographer"
     },
     {
       "img": "/CINEMATOGRAPHY/SHORTS/She_is_Strong/still_4.PNG",
       "title": "She is Strong",
-      "description": "Synopsis: This film details the life and struggle of Rupinder Kaur, the first Indian woman to wrestle for Australia's international team, as she navigates motherhood and a male-dominated career."
-   ,"award": "Winner of Sikhlens Fund Grant Chapman University:",
-   "filmby":"Kylie Miller, Brynne Mckee, Hulu Nunokowa, Kaustubh 'Vick' Singh, Emily Tapanes"
-   ,"role":"Cinematographer, Drone Operator",
-   "link": "https://vimeo.com/315301115"
+      "description": "Synopsis: This film details the life and struggle of Rupinder Kaur, the first Indian woman to wrestle for Australia's international team, as she navigates motherhood and a male-dominated career.",
+      "award": "Winner of Sikhlens Fund Grant Chapman University:",
+      "filmBy": "Kylie Miller, Brynne Mckee, Hulu Nunokowa, Kaustubh 'Vick' Singh, Emily Tapanes",
+      "role": "Cinematographer, Drone Operator",
+      "link": "https://vimeo.com/315301115"
     }
   ],
 
@@ -53,208 +51,197 @@
     {
       "img": "/EDITING/FEATURE/Untitled_Gustavo_Dudamel_Documentary/1.JPG",
       "title": "Untitled Gustavo Dudamel Documentary",
-      "description": "Documentary on Gustavo Dudamel"
-      ,"role":"Post-Production Assistant, Online Editing Assitant",
+      "description": "Documentary on Gustavo Dudamel",
+      "role": "Post-Production Assistant, Online Editing Assitant",
       "director": "Ted Braun",
-      "producer":"Nicolas Paine, Dean Schramm, Howard Bergman",
-      "editor": "Kate Amend, A.C.E."
-      ,"filmby" : "Ted Braun",
+      "producer": "Nicolas Paine, Dean Schramm, Howard Bergman",
+      "editor": "Kate Amend, A.C.E.",
+      "filmBy": "Ted Braun",
       "link": "https://deadline.com/2017/03/gustavo-dudamel-documentary-ted-braun-1202038058/"
-        },
+    },
     {
       "img": "/EDITING/SHORTS/Behind_the_scenes_Chapman_News/unnamed.jpg",
       "title": "Behind the scenes Chapman News",
-      "description": "Look at the inner-workings of Chapman's student run weekly news show."
-    ,"link": "https://www.youtube.com/watch?v=RHqe2J4vn18",
-    "director":"Tim Wolf"
-    ,"producer": "Hakim Wakil, Tim Wolf, Kaustubh Singh"
-    ,"role": "Editor"
+      "description": "Look at the inner-workings of Chapman's student run weekly news show.",
+      "link": "https://www.youtube.com/watch?v=RHqe2J4vn18",
+      "director": "Tim Wolf",
+      "producer": "Hakim Wakil, Tim Wolf, Kaustubh Singh",
+      "role": "Editor"
     },
     {
       "img": "/EDITING/SHORTS/Status_Pending/photo.jpg",
       "title": "Status Pending",
-      "description": "With Immigration law under attack, five first-generation Immigration lawyers strive to help immigrants obtain safety and status in the United States. Through a chronicle of their professional and personal lives, STATUS PENDING aims to present the effects of the current administration through the perspectives of active immigration lawyers in the Los Angeles area"
-    ,"role": "First Assistant Editor",
-    "producer": "Laura Reich",
-    "director": "Priscilla: Gonzalez sainz"
-    ,"link": "http://www.bigskyfilmfest.org/festival/films-2020-view/status_pending/"
-    
+      "description": "With Immigration law under attack, five first-generation Immigration lawyers strive to help immigrants obtain safety and status in the United States. Through a chronicle of their professional and personal lives, STATUS PENDING aims to present the effects of the current administration through the perspectives of active immigration lawyers in the Los Angeles area",
+      "role": "First Assistant Editor",
+      "producer": "Laura Reich",
+      "director": "Priscilla: Gonzalez sainz",
+      "link": "http://www.bigskyfilmfest.org/festival/films-2020-view/status_pending/"
     },
     {
       "img": "/EDITING/SHORTS/That_Was_Ray/2.jpg",
       "title": "Series of Meaningless Sketches",
-      "description": "That Was Ray chronicles the life of Reverend Raymond “Ray” Broshears. Ray was at the forefront of the San Francisco gay rights movement in the late 60s to mid-70s. While he preached peace and acceptance, he also founded a militant group, “The Lavender Panthers”, which curbed hate crimes with the threat of violence. He was a radical and polarizing figure who fought violence with violence, alienating himself from his fellow gay-rights activists and straight peers alike. Due to their controversial methods, Ray and the Panthers were largely forgotten, until now."
-    ,"link": "https://vimeo.com/338448031",
-    "director":"Jordan Gorman and Brenten Brandenburg"
-    ,"role":"Editor",
-    "award": "Student Academy Award Finalist"
+      "description": "That Was Ray chronicles the life of Reverend Raymond “Ray” Broshears. Ray was at the forefront of the San Francisco gay rights movement in the late 60s to mid-70s. While he preached peace and acceptance, he also founded a militant group, “The Lavender Panthers”, which curbed hate crimes with the threat of violence. He was a radical and polarizing figure who fought violence with violence, alienating himself from his fellow gay-rights activists and straight peers alike. Due to their controversial methods, Ray and the Panthers were largely forgotten, until now.",
+      "link": "https://vimeo.com/338448031",
+      "director": "Jordan Gorman and Brenten Brandenburg",
+      "role": "Editor",
+      "award": "Student Academy Award Finalist"
     }
   ],
   "producing": [
     {
       "img": "/PRODUCING/FEATURE/Acceptance/photo.jpg",
       "title": "Acceptance",
-      "description": "An underprivileged scholar from India obsessed about gaining admission into an Ivy League School lies about receiving an acceptance letter from Harvard University and ends up in the opulent world of his peers."
-    ,"role": "Production Assistant",
-    "director":"Ryan Matthew Chan",
-    "producer": "Ryan Matthew Chan, Hari Vishnu, Scholar Info productions",
-    "writer": "Ryan matthew Chan, Hari Vishnu",
-    "link": "https://www.imdb.com/title/tt3170622/"
+      "description": "An underprivileged scholar from India obsessed about gaining admission into an Ivy League School lies about receiving an acceptance letter from Harvard University and ends up in the opulent world of his peers.",
+      "role": "Production Assistant",
+      "director": "Ryan Matthew Chan",
+      "producer": "Ryan Matthew Chan, Hari Vishnu, Scholar Info productions",
+      "writer": "Ryan matthew Chan, Hari Vishnu",
+      "link": "https://www.imdb.com/title/tt3170622/"
     },
     {
       "img": "/PRODUCING/FEATURE/On_The_Record/photo.jpg",
       "title": "On The Record",
-      "description": "A former hip hop executive decides whether to make public her rape by one of the most powerful men in the music industry."
-   ,"role":"Production Assistant"
-   ,"director":"Amy Ziering & Kirby Dick",
-   "producer":"Amy Ziering, Kirby Dick, Jamie Rogers, Amy Herding Chain Camera Productions",
-   "review": "https://variety.com/2020/film/reviews/on-the-record-review-russell-simmons-drew-dixon-1203476329/"
-   ,"link": " https://www.rollingstone.com/movies/movie-features/on-the-record-russell-simmons-sundance-review-943145/"
+      "description": "A former hip hop executive decides whether to make public her rape by one of the most powerful men in the music industry.",
+      "role": "Production Assistant",
+      "director": "Amy Ziering & Kirby Dick",
+      "producer": "Amy Ziering, Kirby Dick, Jamie Rogers, Amy Herding Chain Camera Productions",
+      "review": "https://variety.com/2020/film/reviews/on-the-record-review-russell-simmons-drew-dixon-1203476329/",
+      "link": " https://www.rollingstone.com/movies/movie-features/on-the-record-russell-simmons-sundance-review-943145/"
     },
     {
       "img": "/PRODUCING/FEATURE/Our_Planet/OP.jpg",
       "title": "Our Planet",
-       "description": "Experiencing the planet's natural beauty through an examination of how climate change impacts all living creatures in this ambitious documentary of spectacular scope."
-      ,"role": "Pre-Production Assistant in Alaska, British Columbia"   
-    ,"cinematography": "Jamie McPherson",
-    "director":"Sophie Lanfear",
-    "link": "https://www.netflix.com/watch/80049832?source=35",
-    "producer": "Sophie Lanfear, Alastair Fothergill, Keith Scholey"
+      "description": "Experiencing the planet's natural beauty through an examination of how climate change impacts all living creatures in this ambitious documentary of spectacular scope.",
+      "role": "Pre-Production Assistant in Alaska, British Columbia",
+      "cinematography": "Jamie McPherson",
+      "director": "Sophie Lanfear",
+      "link": "https://www.netflix.com/watch/80049832?source=35",
+      "producer": "Sophie Lanfear, Alastair Fothergill, Keith Scholey"
     },
     {
       "img": "/PRODUCING/SHORTS/Behind_the_scenes_CHapman_news/unnamed.jpg",
       "title": "Behind the scenes Chapman news",
-      "description": "A look at the inner-workings of Chapman's student run weekly news show.      "
-      ,"link": "https://www.youtube.com/watch?v=RHqe2J4vn18",
-      "director":"Tim Wolf"
-      ,"producer": "Hakim Wakil, Tim Wolf, Kaustubh Singh"
-      ,"role": "Producer"
+      "description": "A look at the inner-workings of Chapman's student run weekly news show.      ",
+      "link": "https://www.youtube.com/watch?v=RHqe2J4vn18",
+      "director": "Tim Wolf",
+      "producer": "Hakim Wakil, Tim Wolf, Kaustubh Singh",
+      "role": "Producer"
     },
     {
       "img": "/PRODUCING/SHORTS/Down/photo.jpg",
       "title": "Down",
-      "description": " Parched and wounded, Maurice spots two figures in a distance. Will he be able to make it to either one in time?      "
-      ,"director":" Mac Ali",
-      "role":"Producer",
+      "description": " Parched and wounded, Maurice spots two figures in a distance. Will he be able to make it to either one in time?      ",
+      "director": " Mac Ali",
+      "role": "Producer",
       "link": "https://www.imdb.com/title/tt7992838/?ref_=nm_flmg_dr_2"
-   
     },
     {
       "img": "/PRODUCING/SHORTS/Eternal_Solitude/photo.jpg",
       "title": "Eternal Solitude",
-      "description": "After committing suicide a young man finds himself trapped in afterlife"
-    ,"link": "https://www.imdb.com/title/tt9723620/?ref_=nm_knf_i3"
-    ,"role": "Producer",
-    "director": "Igor Raevskii",
-    "filmby": "Igor Raevskii, Kaustubh Singh",
-    "producer": "igor Raevskii, Kaustubh Singh"
-    
-    
+      "description": "After committing suicide a young man finds himself trapped in afterlife",
+      "link": "https://www.imdb.com/title/tt9723620/?ref_=nm_knf_i3",
+      "role": "Producer",
+      "director": "Igor Raevskii",
+      "filmBy": "Igor Raevskii, Kaustubh Singh",
+      "producer": "igor Raevskii, Kaustubh Singh"
     },
     {
       "img": "/PRODUCING/SHORTS/Kayla/photo.jpg",
       "title": "Kayla",
-      "description": "James likes Kayla, but doesnt know how to show it.      "
-    ,
-    "director":"Mac Ali",
-    "producer": "Kaustubh Singh",
-"link":"https://www.imdb.com/title/tt8442856/?ref_=nm_flmg_prd_4"
-    
+      "description": "James likes Kayla, but doesnt know how to show it.      ",
+      "director": "Mac Ali",
+      "producer": "Kaustubh Singh",
+      "link": "https://www.imdb.com/title/tt8442856/?ref_=nm_flmg_prd_4"
     },
     {
       "img": "/PRODUCING/SHORTS/Noha/photo.jpg",
       "title": "Noha",
-      "description": "Stuck in limbo, can Fatima outwit Death?   "
-     ,"link": "https://indieshortfest.com/2019/07/07/noha/?fbclid=IwAR2fvSjL1qPWy0vvJRGyLxlPAzhMQ7x01JJqrMK3H3GnsQez8-Hze1oU-ME"
-,"role":"Location Manager and Production Assistant",
-    "producer":"Stefan Klink",
-    "director":" Mac Ali",
-    "filmby": "Mac Ali"
+      "description": "Stuck in limbo, can Fatima outwit Death?   ",
+      "link": "https://indieshortfest.com/2019/07/07/noha/?fbclid=IwAR2fvSjL1qPWy0vvJRGyLxlPAzhMQ7x01JJqrMK3H3GnsQez8-Hze1oU-ME",
+      "role": "Location Manager and Production Assistant",
+      "producer": "Stefan Klink",
+      "director": " Mac Ali",
+      "filmBy": "Mac Ali"
     },
     {
       "img": "/PRODUCING/SHORTS/Peace_of_Her_Own/logo.png",
       "title": "Peace of Her Own",
-      "description": "In a community where women are tasked with both farming and house work yet receive no credit, a young Indian woman in the farming community of Gujarat, India prepares to tackle economic instability, climate pressures, and patriarchal oppression within her village and attempts to find Peace of Her Own.   "
-    ,"role":" Field Producer",
-    "producer":"Brynne Mckee, Kylie Miller",
-    "director":"Brynne Mckee",
-    "filmby":"Brynne Mckee, Kylie Miller",
-    "link":"https://www.peaceofherownfilm.com/"
+      "description": "In a community where women are tasked with both farming and house work yet receive no credit, a young Indian woman in the farming community of Gujarat, India prepares to tackle economic instability, climate pressures, and patriarchal oppression within her village and attempts to find Peace of Her Own.   ",
+      "role": " Field Producer",
+      "producer": "Brynne Mckee, Kylie Miller",
+      "director": "Brynne Mckee",
+      "filmBy": "Brynne Mckee, Kylie Miller",
+      "link": "https://www.peaceofherownfilm.com/"
     },
     {
       "img": "/PRODUCING/SHORTS/Status_Pending/photo.jpg",
       "title": "Status Pending",
-      "description": "With Immigration law under attack, five first-generation Immigration lawyers strive to help immigrants obtain safety and status in the United States. Through a chronicle of their professional and personal lives, STATUS PENDING aims to present the effects of the current administration through the perspectives of active immigration lawyers in the Los Angeles area. "
-      ,"role": "Production Assistant",
+      "description": "With Immigration law under attack, five first-generation Immigration lawyers strive to help immigrants obtain safety and status in the United States. Through a chronicle of their professional and personal lives, STATUS PENDING aims to present the effects of the current administration through the perspectives of active immigration lawyers in the Los Angeles area. ",
+      "role": "Production Assistant",
       "producer": "Laura Reich",
-      "director": "Priscilla: Gonzalez sainz"
-      ,"link": "http://www.bigskyfilmfest.org/festival/films-2020-view/status_pending/"
-   
+      "director": "Priscilla: Gonzalez sainz",
+      "link": "http://www.bigskyfilmfest.org/festival/films-2020-view/status_pending/"
     },
     {
       "img": "/PRODUCING/SHORTS/That_Was_Ray/photo.jpg",
       "title": "That Was Ray",
-      "description": "That Was Ray chronicles the life of Reverend Raymond “Ray” Broshears. Ray was at the forefront of the San Francisco gay rights movement in the late 60s to mid-70s. While he preached peace and acceptance, he also founded a militant group, “The Lavender Panthers”, which curbed hate crimes with the threat of violence. He was a radical and polarizing figure who fought violence with violence, alienating himself from his fellow gay-rights activists and straight peers alike. Due to their controversial methods, Ray and the Panthers were largely forgotten, until now. "
-      ,"link":"https://vimeo.com/338448031",
-      "director":"Jordan Gorman and Brenten Brandenburg",
-      "filmby":"Jordan Gorman and Brenten Brandenburg",
-      "award":"Student Academy Award Finalist",
-      "role":"Producer"
-    
-    
+      "description": "That Was Ray chronicles the life of Reverend Raymond “Ray” Broshears. Ray was at the forefront of the San Francisco gay rights movement in the late 60s to mid-70s. While he preached peace and acceptance, he also founded a militant group, “The Lavender Panthers”, which curbed hate crimes with the threat of violence. He was a radical and polarizing figure who fought violence with violence, alienating himself from his fellow gay-rights activists and straight peers alike. Due to their controversial methods, Ray and the Panthers were largely forgotten, until now. ",
+      "link": "https://vimeo.com/338448031",
+      "director": "Jordan Gorman and Brenten Brandenburg",
+      "filmBy": "Jordan Gorman and Brenten Brandenburg",
+      "award": "Student Academy Award Finalist",
+      "role": "Producer"
     },
     {
       "img": "/PRODUCING/SHORTS/Virgin_Hamza's_Revenge/photo.jpg",
       "title": "Virgin Hamza's Revenge",
-      "description": "Hamza's mother accidentally sets up her virgin son with a serial killer.  "
-      ,"role":"Production Assistant",
-    "director":" Mac Ali",
-    "producer":"Stefan Klink",
-    "filmby" : "Mac Ali"
-    ,"award": "Dodge College of Film and Media Arts Senior Thesis Film"
-   
+      "description": "Hamza's mother accidentally sets up her virgin son with a serial killer.  ",
+      "role": "Production Assistant",
+      "director": " Mac Ali",
+      "producer": "Stefan Klink",
+      "filmBy": "Mac Ali",
+      "award": "Dodge College of Film and Media Arts Senior Thesis Film"
     }
   ],
   "visual effects": [
     {
       "img": "/VISUAL_EFFECTS/SHORTS/Down/down.jpg",
       "title": "Down",
-      "description": " Parched and wounded, Maurice spots two figures in a distance. Will he be able to make it to either one in time?"
-    ,"link":"https://www.imdb.com/title/tt7992838/?ref_=nm_flmg_dr_2"
-    ,"director":" Mac Ali",
-    "role":"Visual Effects Producer",
-    "filmby":"Mac Ali"
-    
+      "description": " Parched and wounded, Maurice spots two figures in a distance. Will he be able to make it to either one in time?",
+      "link": "https://www.imdb.com/title/tt7992838/?ref_=nm_flmg_dr_2",
+      "director": " Mac Ali",
+      "role": "Visual Effects Producer",
+      "filmBy": "Mac Ali"
     },
     {
       "img": "/VISUAL_EFFECTS/SHORTS/Noha/photo.jpg",
       "title": "Noha",
-      "description": " Stuck in limbo, can Fatima outwit Death?"
-    , "role":"Visual Effects Producer",
-    "producer":"Stefan Klink",
-    "director":" Mac Ali",
-    "link" : "https://indieshortfest.com/2019/07/07/noha/?fbclid=IwAR2fvSjL1qPWy0vvJRGyLxlPAzhMQ7x01JJqrMK3H3GnsQez8-Hze1oU-ME",
-    "filmby" : "Mac Ali"
+      "description": " Stuck in limbo, can Fatima outwit Death?",
+      "role": "Visual Effects Producer",
+      "producer": "Stefan Klink",
+      "director": " Mac Ali",
+      "link": "https://indieshortfest.com/2019/07/07/noha/?fbclid=IwAR2fvSjL1qPWy0vvJRGyLxlPAzhMQ7x01JJqrMK3H3GnsQez8-Hze1oU-ME",
+      "filmBy": "Mac Ali"
     },
     {
       "img": "/VISUAL_EFFECTS/SHORTS/That_Was_Ray/photo.jpg",
       "title": "That Was Ray",
-      "description": " That Was Ray chronicles the life of Reverend Raymond “Ray” Broshears. Ray was at the forefront of the San Francisco gay rights movement in the late 60s to mid-70s. While he preached peace and acceptance, he also founded a militant group, “The Lavender Panthers”, which curbed hate crimes with the threat of violence. He was a radical and polarizing figure who fought violence with violence, alienating himself from his fellow gay-rights activists and straight peers alike. Due to their controversial methods, Ray and the Panthers were largely forgotten, until now."
-      ,"link":"https://vimeo.com/338448031",
-      "director":"Jordan Gorman and Brenten Brandenburg",
-      "filmby":"Jordan Gorman and Brenten Brandenburg",
-      "award":"Student Academy Award Finalist",
-      "role":"Visual Effects Producer"
+      "description": " That Was Ray chronicles the life of Reverend Raymond “Ray” Broshears. Ray was at the forefront of the San Francisco gay rights movement in the late 60s to mid-70s. While he preached peace and acceptance, he also founded a militant group, “The Lavender Panthers”, which curbed hate crimes with the threat of violence. He was a radical and polarizing figure who fought violence with violence, alienating himself from his fellow gay-rights activists and straight peers alike. Due to their controversial methods, Ray and the Panthers were largely forgotten, until now.",
+      "link": "https://vimeo.com/338448031",
+      "director": "Jordan Gorman and Brenten Brandenburg",
+      "filmBy": "Jordan Gorman and Brenten Brandenburg",
+      "award": "Student Academy Award Finalist",
+      "role": "Visual Effects Producer"
     },
     {
       "img": "/VISUAL_EFFECTS/SHORTS/Virgin_Hamza's_Revenge/photo.jpg",
       "title": "Virgin Hamza's Revenge",
-      "description": "  Hamza's mother accidentally sets up her virgin son with a serial killer. "
-    ,"role":"Visual Effects Producer",
-    "director":" Mac Ali",
-    "producer":"Stefan Klink",
-    "filmby" : "Mac Ali"
-    ,"award": "Dodge College of Film and Media Arts Senior Thesis Film"
+      "description": "  Hamza's mother accidentally sets up her virgin son with a serial killer. ",
+      "role": "Visual Effects Producer",
+      "director": " Mac Ali",
+      "producer": "Stefan Klink",
+      "filmBy": "Mac Ali",
+      "award": "Dodge College of Film and Media Arts Senior Thesis Film"
     }
   ]
 }

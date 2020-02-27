@@ -19,18 +19,30 @@ const Description = ({ router, className }) => {
       <Layout>
         <div className={className}>
           <BgContainer background={workType.img}>
-            <img src={workType.img} alt="image" />
+            <div className="centered-container">
+              <img src={workType.img} alt="image" />
+            </div>
+            <div className="centered-container">
+              {workType.filmBy && <h3>A film by {workType.filmBy}</h3>}
+              <h1 className="title">{workType.title}</h1>
+            </div>
           </BgContainer>
-          <div className="centered-container">
-            {workType.director && <h3>A film by {workType.director}</h3>}
-            <h1 className="title">{workType.title}</h1>
-          </div>
-          <Flex align="center" justify="space-around" className="synopsis-container">
+          <Flex
+            align="center"
+            justify="space-around"
+            className="synopsis-container"
+          >
             <div>
               <h2>SYNOPSIS</h2>
             </div>
             <p className="description">{workType.description}</p>
           </Flex>
+          {workType.link && (
+            <div className="trailer">
+              <h1>Latest Trailer</h1>
+              <a href={workType.link}>Watch Trailer</a>
+            </div>
+          )}
         </div>
       </Layout>
     </ThemeContext.Provider>
@@ -40,12 +52,12 @@ const Description = ({ router, className }) => {
 const BgContainer = styled.div`
   width: 100%;
   height: 100vh;
-  overflow: hidden;
+  position: relative;
+  background-color: #333;
   img {
     transform-origin: center center;
     animation: zoom 30s infinite;
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
   }
   @keyframes zoom {
     from {
@@ -58,7 +70,7 @@ const BgContainer = styled.div`
 `;
 
 export default styled(withRouter(Description))`
-  color: #fff;
+  color: #ccc;
   z-index: -1;
   position: relative;
   .centered-container {
@@ -72,6 +84,8 @@ export default styled(withRouter(Description))`
     min-height: 15rem;
     color: #fff;
     background-color: #333;
+    border-top: 1px solid #ccc;
+    line-height: 2rem;
   }
   .title {
     font-size: 4.5rem;
@@ -82,6 +96,34 @@ export default styled(withRouter(Description))`
   .description {
     font-size: 1.5rem;
     font-weight: 400;
+    flex: 0 0 50%;
+  }
+
+  .trailer {
+    min-height: 20rem;
+    background: url('/Alfa-home-parallax-img.jpg');
+    background-size: cover;
+    text-align: center;
+    padding: 4rem;
+    color: #fff;
+    a {
+      display: inline-block;
+      text-decoration: none;
+      border: 1px solid #fff;
+      font-size: 1.5rem;
+      padding: 1rem 2rem;
+      transition: all 0.3s;
+      background-color: transparent;
+    }
+    a: hover {
+      background-color: #fff;
+      color: #222;
+    }
+
+    h1 {
+      margin-top: 0;
+      margin-bottom: 4rem;
+    }
   }
 
   @media only screen and (max-width: 768px) {
@@ -90,6 +132,19 @@ export default styled(withRouter(Description))`
     }
     .description {
       font-size: 1rem;
+    }
+    .synopsis-container {
+      flex-direction: column;
+      padding: 0 1rem;
+    }
+    .trailer {
+      a {
+        font-size: 1rem;
+        padding: 1rem;
+      }
+      h1 {
+        font-size: 1.5rem;
+      }
     }
   }
 `;
