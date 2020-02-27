@@ -2,7 +2,7 @@ import { withRouter } from "next/router";
 import styled from "styled-components";
 import Layout from "../components/Layout";
 import Flex from "../components/Flex";
-import Container from "../components/Container";
+import Production from "../components/Production";
 import Data from "../data.json";
 import ThemeContext from "../context/ThemeContext";
 
@@ -43,6 +43,7 @@ const Description = ({ router, className }) => {
               <a href={workType.link}>Watch Trailer</a>
             </div>
           )}
+          <Production workType={workType} />
         </div>
       </Layout>
     </ThemeContext.Provider>
