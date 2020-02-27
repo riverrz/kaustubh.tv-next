@@ -6,7 +6,7 @@ import Flex from './Flex';
 
 const ModalComponent = ({ data, query, className }) => {
   return (
-    <Grid className={className} cols={3}>
+    <Grid className={className} cols={5}>
       {data.map(({ title, img }, i) => (
         <Link href={`/description?type=${query}&i=${i}`} key={title}>
           <Card key={i}>
@@ -33,7 +33,7 @@ export default styled(ModalComponent)`
     img {
       height: 100%;
       width: 100%;
-      max-height: 300px;
+      max-height: 200px;
     }
   }
 `;

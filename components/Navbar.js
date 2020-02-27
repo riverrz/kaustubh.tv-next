@@ -52,7 +52,7 @@ export default styled(Navbar)`
   .nav-list {
     flex: 0 0 30%;
     margin: 0;
-    padding: 0;
+    padding-left: 10%;
     list-style: none;
     display: flex;
     justify-content: space-around;
@@ -61,7 +61,7 @@ export default styled(Navbar)`
   .title {
     flex: 1;
     margin: 0;
-    padding: 0;
+    padding-left: 15%;
     text-align: center;
   }
 

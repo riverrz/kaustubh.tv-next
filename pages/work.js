@@ -2,6 +2,7 @@ import { useState } from "react";
 import styled from "styled-components";
 import Layout from "../components/Layout";
 import Grid from "../components/Grid";
+import Container from '../components/Container';
 import Card from "../components/Card";
 import Lottie from "../components/Lottie";
 import Modal from "../components/Modal";
@@ -36,8 +37,8 @@ const Work = ({ className }) => {
         >
           {modalData.content}
         </Modal>
-        <main className={className}>
-          <Grid style={{ padding: "15%" }}>
+        <Container className={className}>
+          <Grid>
             {data.map(({ query, animationData }, i) => (
               <Card
                 key={i}
@@ -57,7 +58,7 @@ const Work = ({ className }) => {
               </Card>
             ))}
           </Grid>
-        </main>
+        </Container>
       </Layout>
     </ThemeContext.Provider>
   );
