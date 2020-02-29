@@ -38,7 +38,7 @@ const Work = ({ className }) => {
           {modalData.content}
         </Modal>
         <Container className={className}>
-          <Grid>
+          <Grid className="container-grid">
             {data.map(({ query, animationData }, i) => (
               <Card
                 key={i}
@@ -90,5 +90,8 @@ export default styled(Work)`
   }
   .svg-container {
     height: 300px;
+  }
+  .container-grid {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
 `;

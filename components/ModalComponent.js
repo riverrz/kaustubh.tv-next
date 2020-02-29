@@ -24,16 +24,16 @@ const ModalComponent = ({ data, query, className }) => {
 export default styled(ModalComponent)`
   padding: 2rem;
   grid-gap: 5%;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   max-height: 75vh;
   min-width: 75vw;
   overflow: auto;
   .img-container {
     width: 100%;
-    height: 80%;
     img {
       height: 100%;
       width: 100%;
-      max-height: 200px;
+      min-height: 150px;
     }
   }
 `;

@@ -40,6 +40,9 @@ const StyledIndex = styled(Index)`
   .main-content {
     line-height: 2rem;
     padding: 1rem 0;
+    div {
+      margin: 1rem 0;
+    }
   }
   .img-container {
     padding: 0 1rem;
