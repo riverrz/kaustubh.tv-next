@@ -19,13 +19,30 @@ const Description = ({ router, className }) => {
       <Layout>
         <div className={className}>
           <BgContainer background={workType.img}>
-            <div className="centered-container">
+            <div className="centered-container img-container">
               <img src={workType.img} alt="image" />
             </div>
-            <div className="centered-container">
-              {workType.filmBy && <h3>A film by {workType.filmBy}</h3>}
-              <h1 className="title">{workType.title}</h1>
-            </div>
+            {workType.showTitle && (
+              <div className="centered-container">
+                {workType.filmBy && (
+                  <h3
+                    style={{
+                      color: workType.titleColor ? workType.titleColor : ""
+                    }}
+                  >
+                    A film by {workType.filmBy}
+                  </h3>
+                )}
+                <h1
+                  className="title"
+                  style={{
+                    color: workType.titleColor ? workType.titleColor : ""
+                  }}
+                >
+                  {workType.title}
+                </h1>
+              </div>
+            )}
           </BgContainer>
           <Flex
             align="center"
@@ -52,27 +69,41 @@ const Description = ({ router, className }) => {
 
 const BgContainer = styled.div`
   width: 100%;
-  height: 100vh;
+  height: 80vh;
   position: relative;
   background-color: #333;
   img {
     transform-origin: center center;
-    animation: zoom 30s infinite;
     max-width: 100%;
+    max-height: 65vh;
+  }
+  .img-container {
+    width: 100%;
   }
   @keyframes zoom {
     from {
       transform: scale(1);
     }
     to {
-      transform: scale(1.05);
+      transform: scale(1.3);
     }
+  }
+
+  @media only screen and (min-width: 768px) {
+    img {
+      animation: zoom 30s infinite alternate;
+    }
+    .img-container {
+      width: auto;
+    }
+    height: 90vh;
   }
 `;
 
 export default styled(withRouter(Description))`
   color: #ccc;
   z-index: -1;
+  height: 100%;
   position: relative;
   .centered-container {
     position: absolute;
@@ -102,7 +133,7 @@ export default styled(withRouter(Description))`
 
   .trailer {
     min-height: 20rem;
-    background: url('/Alfa-home-parallax-img.jpg');
+    background: url("/Alfa-home-parallax-img.jpg");
     background-size: cover;
     text-align: center;
     padding: 4rem;

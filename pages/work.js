@@ -94,4 +94,8 @@ export default styled(Work)`
   .container-grid {
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   }
+
+  @media only screen and (max-width: 768px) {
+    padding: 25% 5%;
+  }
 `;

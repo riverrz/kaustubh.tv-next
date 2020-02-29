@@ -46,7 +46,7 @@ const StyledIndex = styled(Index)`
   }
   .img-container {
     padding: 0 1rem;
-    width: 100%;
+    width: 90%;
     img {
       width: 100%;
       height: 100%;
@@ -55,6 +55,9 @@ const StyledIndex = styled(Index)`
   @media only screen and (max-width: 768px) {
     flex-direction: column;
     align-items: center;
+    .img-container {
+      width: 100%;
+    }
   }
 `;
 

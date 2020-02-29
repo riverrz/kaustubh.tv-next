@@ -100,6 +100,7 @@ export default styled(Production)`
   }
   .individual-card {
     text-align: center;
+    padding: 0 1rem;
   }
   .icon-container {
     text-align: center;

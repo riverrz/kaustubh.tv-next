@@ -77,5 +77,8 @@ export default styled(Navbar)`
     .title {
       display: none;
     }
+    .nav-list {
+      padding: 0;
+    }
   }
 `;

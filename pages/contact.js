@@ -27,4 +27,8 @@ export default styled(About)`
   div {
     margin: 10px;
   }
+
+  @media only screen and (max-width: 768px) {
+    padding: 25% 15%;
+  }
 `;
